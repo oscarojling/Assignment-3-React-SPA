@@ -3,6 +3,7 @@
   background-color: #1f2a35;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 @media screen and (max-width: 768px) {

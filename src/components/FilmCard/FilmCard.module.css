@@ -3,7 +3,7 @@
   border-radius: 16px;
   padding: 16px;
   height: 100%;
-  color: #ffff;
+  color: #fff;
   transition: transform 0.3s;
 }
 
@@ -23,6 +23,7 @@
 }
 
 .link {
+  display: inline-block;
   color: #ff8000;
   cursor: pointer;
   text-decoration: none;
@@ -44,7 +45,7 @@
   object-fit: contain;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .image {
     height: 200px;
   }
