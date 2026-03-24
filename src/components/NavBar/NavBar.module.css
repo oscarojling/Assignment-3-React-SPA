@@ -1,0 +1,38 @@
+.navBar {
+  display: flex;
+  align-items: center;
+}
+
+.navList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.navItem {
+  font-size: 2rem;
+  padding: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 2px;
+  color: #ffffff;
+  cursor: pointer;
+  padding-bottom: 0.25rem;
+  border-bottom: 3px solid transparent;
+  transition: border-bottom-color 0.3s;
+}
+
+.navItem:hover {
+  border-bottom-color: #ff8000;
+}
+
+@media screen and (max-width: 768px) {
+
+  .navBar {
+    justify-content: center;
+  }
+
+  .navItem {
+    font-size: 1.2rem;
+  }
+}

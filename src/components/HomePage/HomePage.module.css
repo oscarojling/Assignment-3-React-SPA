@@ -1,0 +1,28 @@
+.about {
+  padding: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3rem;
+  font-family: "Bebas Neue", sans-serif;
+  color: #ff8000;
+  margin-bottom: 24px;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+}

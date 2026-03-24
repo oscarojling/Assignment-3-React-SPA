@@ -1,0 +1,28 @@
+.hero {
+  text-align: center;
+  padding: 40px;
+  text-align: center;
+}
+
+.title {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 4px;
+  color: #ffff;
+  margin-bottom: 16px;
+}
+
+.subTitle,
+.subTitle2 {
+  font-size: 1rem;
+  color: #cccccc;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    padding: 16px;
+  }
+  .title {
+    font-size: 2rem;
+  }
+}

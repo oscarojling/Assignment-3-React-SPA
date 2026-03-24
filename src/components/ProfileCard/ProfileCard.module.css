@@ -1,0 +1,41 @@
+.director {
+  background-image: url("../../assets/images/davidfincher.jpg");
+}
+
+.film {
+  background-image: url("../../assets/images/trollsommar.jpg");
+}
+
+.actor {
+  background-image: url("../../assets/images/alpacino.jpg");
+}
+
+.profileCard {
+  border-radius: 16px;
+  padding: 24px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.profileCard h3 {
+  font-family: "Bebas Neue", sans-serif;
+  color: #ff8000;
+  font-size: 2rem;
+  margin-bottom: 8px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.profileCard p {
+  color: #ffffff;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+}
+
+.profileText {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 8px;
+  border-radius: 4px;
+}
