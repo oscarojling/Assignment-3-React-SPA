@@ -11,7 +11,7 @@ function App() {
     <>
       <Header setPage={setPage} />
       {!page && <HomePage />}
-      {page === "films" && <FilmsPage /> }
+      {page === "films" && <FilmsPage />}
       {page === "favourites" && <FavouritesPage />}
     </>
   );

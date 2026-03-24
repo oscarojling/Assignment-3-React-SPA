@@ -10,7 +10,8 @@
 }
 
 @media screen and (max-width: 768px) {
-  .wrapper, .favourites {
+  .wrapper,
+  .favourites {
     grid-template-columns: repeat(1fr);
     padding: 16px;
   }

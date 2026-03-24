@@ -1,4 +1,4 @@
-import styles from './ProfileCard.module.css'
+import styles from "./ProfileCard.module.css";
 
 const ProfileCard = ({ title, name, type }) => {
   return (
@@ -8,7 +8,7 @@ const ProfileCard = ({ title, name, type }) => {
         <p>{name}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ProfileCard
+export default ProfileCard;

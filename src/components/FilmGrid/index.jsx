@@ -1,5 +1,5 @@
 import FilmCard from "../FilmCard";
-import styles from './FilmGrid.module.css'
+import styles from "./FilmGrid.module.css";
 
 const FilmGrid = ({ films, type }) => {
   return (
@@ -20,4 +20,4 @@ const FilmGrid = ({ films, type }) => {
   );
 };
 
-export default FilmGrid
+export default FilmGrid;
