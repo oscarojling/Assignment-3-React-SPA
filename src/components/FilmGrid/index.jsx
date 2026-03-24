@@ -11,7 +11,7 @@ const FilmGrid = ({ films, type }) => {
           year={film.year}
           genre={film.genre}
           image={film.image}
-          imbd={film.imbd}
+          imdb={film.imdb}
           rt={film.rt}
           rating={film.rating}
         />
