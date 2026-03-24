@@ -9,12 +9,8 @@ const FilmCard = ({ title, year, genre, rating, imdb, rt, image }) => {
       <p className={styles.year}>Year of release: {year}</p>
       <p className={styles.genre}>Genre: {genre}</p>
       <p className={styles.rating}>My rating: {rating}</p>
-      <a className={styles.link} href={imdb}>
-        IMDB
-      </a>
-      <a className={styles.link} href={rt}>
-        Rotten Tomatoes
-      </a>
+      <a className={styles.link} href={imdb}>IMDB</a>
+      <a className={styles.link} href={rt}>Rotten Tomatoes</a>
     </div>
   );
 };
